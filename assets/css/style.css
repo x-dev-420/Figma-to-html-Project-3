@@ -607,3 +607,37 @@ a {
 .blog-item__more:hover {
     color: #2E80CE;
 }
+
+/* ========================== Appoinment ========================== */
+.appoinment {
+    padding: 85px 0;
+}
+
+.appoinment__inner {
+    padding: 100px 178px;
+    background: #F6FBFF;
+    text-align: center;
+}
+
+.appoinment__heading::after {
+    content: "";
+    display: block;
+    margin: 18px auto 0;
+    width: 136px;
+    height: 2px;
+    background: #2E80CE;
+}
+
+.appoinment__desc {
+    margin: 18px auto 0;
+    margin-top: 18px;
+    max-width: 617px;
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; 
+}
+
+.appoinment__btn {
+    margin-top: 38px;
+}
